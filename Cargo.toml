@@ -211,6 +211,7 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 # This allows building and running on systems without libxdo installed (e.g., Wayland-only)
 [patch.crates-io]
 libxdo-sys = { path = "libs/libxdo-sys-stub" }
+hbb_common = { git = "https://github.com/thisisevgeniy/hbb_common" }
 
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2025 Purslane Ltd. All rights reserved."
